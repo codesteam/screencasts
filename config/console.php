@@ -11,7 +11,7 @@ return [
     'bootstrap' => ['log', 'gii'],
     'controllerNamespace' => 'app\commands',
     'modules' => [
-        // 'gii' => 'yii\gii\Module',
+        'gii' => 'yii\gii\Module',
     ],
     'components' => [
         'cache' => [
