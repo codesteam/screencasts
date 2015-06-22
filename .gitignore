@@ -2,3 +2,4 @@
 /runtime
 /web/assets
 .env
+/config/capistrano/deploy/production.rb

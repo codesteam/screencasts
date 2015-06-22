@@ -20,7 +20,7 @@ class SiteController extends Controller
     public function actionIndex()
     {
         $data = [
-            'videos' => Video::find()->all(),
+            'videos' => Video::find()->orderby(['id' => SORT_DESC])->all(),
         ];
         return $this->render('index', $data);
     }
