@@ -1,5 +1,5 @@
 # Config valid only for current version of Capistrano
-lock '3.4.0'
+lock '3.5.0'
 
 set :application, 'screencasts'
 
@@ -9,7 +9,7 @@ set :scm, :git
 set :branch, 'master'
 
 # Deploy directory on remote server
-set :deploy_to, '/home/dev/app_core'
+set :deploy_to, '/var/www/screencast.code-bit.com/kernel'
 
 # Store only 5 releases
 set :keep_releases, 5
